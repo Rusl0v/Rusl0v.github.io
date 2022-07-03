@@ -1,0 +1,80 @@
+
+@font-face {
+  font-family: 'akira_expandedsuper_bold';
+  src: url('./fonts/akira_expanded_demo.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.login-page {
+  width: 400px;
+  height: 300px;
+  padding: 8% 0 0;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 99;
+background-color: #ffffff00;
+opacity: 1;
+display: none;
+}
+.text-content{
+    display: block;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+    backdrop-filter: blur(10px);
+  max-width: 350px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  margin-top: -100px;
+  text-align: center;
+  border-radius: 0px 0px 30px 30px;
+  transition: 1s;
+}
+.form:hover {
+    box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.377);
+padding: 40px;}
+.form .in {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius:  30px;
+
+}
+.form .btn2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #19282F;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .btn2:hover,.form .btn2:active,.form .btn2:focus {
+  background: #000000;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+h1{
+  font-size: 80px;
+}
+
